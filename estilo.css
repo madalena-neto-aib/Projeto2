@@ -1,0 +1,37 @@
+body {
+	background-color: red;
+	font-family: Arial;
+}
+h1 {
+	color: darkred;
+	text-align: center;
+}
+h2 {
+	color: blue;
+}
+div {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 3px solid white;
+}
+.destaque {
+	background-color: yellow;
+	color: black;
+	padding: 10px;
+}
+img {
+	width: 300px;
+}
+
+/*
+1. Desafio Tecnico
+O mais dificil foi separar o conteudo em caixas. As caixas ficavam coladas umas as outras, ate que percebi que faltava o margin-bottom na div.
+
+2. Correcao de Sintaxe
+O erro mais comum foi escrever mal as cores, como o #DarkRed, e meter espacos nos valores, como 30 px em vez de 30px.
+
+3. Autoria
+O src serve para dizer ao navegador onde esta a imagem. Escrevo o nome do ficheiro e ele mostra a imagem na pagina.
+*/
